@@ -90,7 +90,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 .pictures {
@@ -110,6 +110,7 @@ ul {
 .square{
     width: 300px;
     height: 300px;
+    border-radius: 10px;
 }
 
 .image-subtext {
@@ -119,3 +120,26 @@ ul {
     font-size: 18px;
     margin-top: 10px;
 }
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 500px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: light italic;
+    justify-content: center;
+}
+
+.quoted {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
