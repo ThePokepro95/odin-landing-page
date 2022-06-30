@@ -77,3 +77,45 @@ ul {
     list-style-type: none;
     gap: 16px;
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.s2-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.pictures {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.info-pair {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+}
+
+.image-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
